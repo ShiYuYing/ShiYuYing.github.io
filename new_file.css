@@ -1,0 +1,191 @@
+*{margin: 0;padding: 0;}
+body{
+	background: black;
+}
+/* -------------------------头部--------------- */
+#header{
+	width: 500px;
+	height: 30px;
+	margin: 0 auto;
+	background: black;
+	padding: 5px;
+	background-color: aqua;
+}
+#header .logo img{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 50px;
+}
+#header .nav ul{
+	width: 100%;
+	text-align: center;
+}
+#header .nav ul li{
+	float: left;
+	list-style: none;
+	width: 100px;
+}
+#header .nav ul li a{
+	color: white;
+	text-decoration: none;
+	line-height: 30px;
+	font-size: 14px;
+}
+#header .nav ul li a:hover{
+	color: lightsalmon;
+}
+/* -------------------------头部结束---------------------- */
+/* -------------------------banner-------------------------- */
+#banner{
+	width: 500px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 5px;
+	background-image: url(imges/WWY8I%5D_%7DMAN%7BN6%5D0LE3K%5BZL.jpg ) ;
+}
+#banner .banner1 h1{
+	text-align: center;
+	line-height: 200px;
+	color: #c6c6c6;
+}
+#card{
+	width: 500px;
+	height: 150px;
+	margin: 0 auto;
+	background: white;
+}
+#card ul.img1 li img{
+	width: 100px;
+	height: 100px;
+}
+#card ul.img1 li.img2{
+	width: 100px;
+	font-size: 12px;
+	float: left;
+	list-style: none;
+	margin: 0 30px;
+	line-height: 14px;
+	text-align: center;
+}
+#card ul.img1 li.card1{
+	float: left;
+	list-style: none;
+	color: black;
+	margin: 0 12px;
+	border-right: 1px burlywood solid;
+	border-left: 1px burlywood solid;
+	letter-spacing: 2px;
+}
+#card ul.img1 li.card1 ul li{
+	list-style: none;
+	padding: 0 2px;
+	margin: 0 1px;
+}
+#card ul.img1 li.card1 ul li.xinxi{
+	font-size: 20px;
+	margin-left: 30px;
+	line-height: 30px;
+}
+#card ul.img1 li.card1 ul li.xinxi a{
+	color: lightsalmon;
+	padding-bottom: 2px;
+}
+#card ul.img1 li.card1 ul{
+	margin-top: 13px;
+}
+#card ul.img1 li.frimg img{
+	width: 100px;
+	height: 100px;
+	float: right;
+	margin: 20px 20px;
+}
+#card ul.img1 li.frimg{
+	list-style: none;
+}
+/* ----------------------------------banner结束 -------------------------*/
+/* -----------------------------------图片部分----------------------- */
+#img{
+	width: 500px;
+	height: 290px;
+	margin: 50px auto;
+	background-color: white;
+}
+#img h2{
+	font-weight: 100;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	border-bottom: 1px ;
+}
+#img h2 a{
+	color: lightsalmon;
+}
+#img .img3 img{
+	width: 100px;
+	height: 200px;
+}
+#img .img3{
+	display: flex;
+	justify-content: space-around;
+}
+#img .img3 div {
+	width: 100px;
+}
+#img .img3 div p{
+	color: #000000;
+	font-size: 12px;
+	text-align: center;
+}
+#img .img3 div p a{
+	color: #000000;
+}
+/*-----------------------------图片部分结束--------------------  */
+/* --------------------------作品部分--------------------- */
+#zuopin{
+	width: 500px;
+	height: 290px;
+	margin: 50px auto;
+	background-color: white;
+}
+#zuopin h2{
+	font-weight: 100;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	border-bottom: 1px ;
+}
+#zuopin h2 a{
+	color: lightsalmon;
+}
+#zuopin img{
+	width: 135px;
+	height: 100px;
+	margin: 8px 15.5px;
+}
+#zuopin .ww .ss{
+	border-top: 1px solid lightsalmon;
+}
+#zuopin .ww{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#zuopin .gg{
+	border-right: 1px solid lightsalmon;
+}
+/* ------------------作品部分结尾-------------------- */
+/*                    尾部--------------------------- */
+#weibu{
+	width: 500px;
+	height: 100px;
+	margin: 0 auto;
+	background-image: url(imges/WWY8I%5D_%7DMAN%7BN6%5D0LE3K%5BZL.jpg);
+}
+#weibu h1{
+	text-align: center;
+	line-height: 80px;
+	color: #c6c6c6;
+}
+/* -----------------------尾部结束---------------- */
